@@ -41,10 +41,13 @@
                                 <path d="M14 8h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5m2 0v1.5m0 -9v1.5" />
                             </svg>
                             <p><%#Eval("Precio") %></p>
-                        </div>
+                        </div>                        
                     </div>
-                    <a href="producto_editar.aspx?id=<%#Eval("IdProducto") %>">Editar</a>
-                </div>
+                        <div class="producto-acciones">
+                            <a href="producto_editar.aspx?id=<%#Eval("IdProducto") %>">Editar</a>
+                            <a href="#">Eliminar</a>
+                        </div>                    
+                </div>     
             </ItemTemplate>
         </asp:Repeater>
     </div>

@@ -260,7 +260,7 @@ h2 {
 }
 
     .producto a {
-        display: block;
+        width: 50%;        
         background-color: pink;
         color: darkslateblue;
         text-decoration: none;
@@ -269,6 +269,7 @@ h2 {
         padding: 1rem;
         margin: 1rem;
         border-radius: .5rem;
+        column-gap: 2rem;
     }
 
 .producto-detalle h3, .producto-detalle p {
@@ -286,5 +287,17 @@ h2 {
     border-radius: .5rem;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 1rem;
     display: block;
 }
+
+.producto-acciones {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding: .5rem;
+    border-radius: 1rem;    
+    text-decoration: none;
+    text-align: center;
+}
+    
